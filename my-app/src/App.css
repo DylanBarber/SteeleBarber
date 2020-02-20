@@ -1,3 +1,16 @@
 .nav-link {
     align-self: center;
 }
+
+.homeBannerDiv {
+    font-family: monospace;
+    color: paleturquoise;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    height: 8vh;
+    width: 100vw;
+    background-image: url(./img/homeBanner.jpg);
+    background-size: cover;
+}
+

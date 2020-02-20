@@ -4,7 +4,11 @@ class Home extends React.Component {
 
     render() {
         return(
-            <h1>Home</h1>
+            <div className='homeMainDiv'>
+                <div className='homeBannerDiv'>
+                    <h3>Steele Barber Engineering</h3>
+                </div>
+            </div>
         );
     }
 }
