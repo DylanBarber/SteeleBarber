@@ -5,8 +5,8 @@ class Home extends React.Component {
     render() {
         return(
             <div className='homeMainDiv'>
-                <div className='homeBannerDiv'>
-                    <h3>Steele Barber Engineering</h3>
+                <div className='bannerDiv'>
+                    <h3 className='bannerText'>Steele Barber Engineering</h3>
                 </div>
             </div>
         );

@@ -16,7 +16,7 @@ class Header extends React.Component {
     render() {
         return (
             <Router>
-                <Navbar bg="light" expand="lg">
+                <Navbar bg="dark navbar-dark" expand="lg">
                     <Navbar.Brand>Steele Barber Engineering</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">

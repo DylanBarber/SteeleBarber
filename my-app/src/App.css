@@ -2,7 +2,7 @@
     align-self: center;
 }
 
-.homeBannerDiv {
+.bannerDiv {
     font-family: monospace;
     color: paleturquoise;
     display: flex;
@@ -14,3 +14,6 @@
     background-size: cover;
 }
 
+.bannerText {
+    margin-top: 1vh;
+}    
