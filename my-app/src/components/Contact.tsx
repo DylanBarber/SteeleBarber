@@ -8,9 +8,15 @@ class Contact extends React.Component {
                 <div className='bannerDiv'>
                     <h3 className='bannerText'>Contact Us</h3>
                 </div>
-            </div>
-        )
-    }
-}
-
+                <form>
+                    <div className="form-group">
+                        <label htmlFor='emailAddressForm'>Email address</label>
+                        <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+                    </div>
+                    </form>
+                    </div>
+                )
+            }
+        }
+        
 export default Contact;
